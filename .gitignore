@@ -1,0 +1,9 @@
+opencv_simpleblobdetenction/nbproject
+*/nbproject
+*/Makefile
+*/.dep.inc
+*/build
+*/dist
+*/*.MOV
+*/*.jpg
+*~
