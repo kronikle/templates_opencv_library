@@ -62,7 +62,7 @@ void send_udp(int _x, int _y) {
 }
 
 void mouse_callback(int event, int x, int y, int flag, void *param) {
-    if (event == EVENT_MOUSEMOVE) {
+    if (event == EVENT_FLAG_LBUTTON) {
         cout << "(" << x << ", " << y << ")" << endl;
 
         int norm_x = (x / w_window) * 255;
